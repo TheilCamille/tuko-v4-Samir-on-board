@@ -1,0 +1,338 @@
+body {
+    font-family: 'Courgette', cursive;
+    font-size: 1.2em;
+}
+
+.ct1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    padding: 3em;
+    
+}
+
+.parallax-window {
+    height: 30em;
+    width: 100%;
+
+    border-bottom: 1px black solid;
+}
+hr:first-child {
+    margin: -50em;
+}
+
+.navigation {
+    height: 5em;
+    width: 100%;
+    padding: 0 1em;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px black solid;
+
+    position: fixed;
+    background-color: white;
+    top: 0;
+}
+
+#facebook {
+    height: 50px;
+}
+
+.nav1 ul li{
+    height: 100%;
+    list-style: none;
+    display: inline;
+}
+
+
+
+.nav2 {
+    display: flex;
+    align-items: center;
+}
+.ct1 img {
+    height: 300px;
+    
+    border-radius: 50%;
+    
+   -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+.parcours p {
+    margin: 50px;
+    
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.partenaires  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 7em;
+    
+}
+
+.partenaires img {
+    height: 200px;
+    width: 200px;
+    
+    border-radius: 50%;
+    
+   -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    
+    margin-right: 4em;
+}
+
+.methode {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 8em;
+    margin-bottom: 8em;
+
+
+    
+}
+.methode section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+    height: 100%;
+
+
+}
+.methode p {
+
+
+}
+
+.cf {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    
+
+    width: 20%;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777
+    
+}
+
+.arguments {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: flex-start;
+
+    margin-top: 3em;
+}
+
+.arguments div {
+    width: 19%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+    padding: 1em;
+    
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+       
+}
+
+.arguments div p {
+    font-size: 22px;
+
+    margin-top: 1em;
+    margin-left: 1em;
+
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5em;
+}
+
+.tarif {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5em;
+
+    height: 15em;
+}
+.tarif article {
+    height: 100%;
+    width: 25em;
+
+    border: 1px black solid;
+
+    margin-right: 5em;
+
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+.tarif article div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid black;
+
+    height: 33%;
+}
+
+.tarif  article div:last-child {
+    border-bottom: none;
+}
+.tarif-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+}
+
+.tarif-content span {
+    margin-left: 1em;
+}
+
+.cesu-content {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 5em;
+
+
+}
+.cesu {
+    height: 100%;
+    width: 75%;
+
+    background-image: url("../assets/carreau.jpg");
+
+    padding: 5em;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5em;
+    color: #3A569B;
+}
+.cesu:before {
+    opacity: 0.1;
+}
+.cesu p {
+    margin-bottom: 2em;
+}
+
+h4 {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 1.5em;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 15em;
+
+    bottom: 0;
+    background-color: #333c44;
+}
+
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 100%;
+    width: 40%;
+
+    text-align: center;
+
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+    height: 100%;
+    width: 60%;
+
+    text-align: center;
+}
+
+.info ul li {
+    margin-top: 2em;
+}
+.info ul li:first-child {
+    margin-top: inherit;
+}
+footer div div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    border: 1px solid black;
+}
+
+.map {
+    position:relative; 
+}
+.map iframe {
+    width: 100%;
+}
+
+.overlay {
+    width:100%;
+    min-height:500px; 
+    position:absolute; 
+    top:0;
+}

@@ -1,0 +1,297 @@
+/* Fueille de style "Screen" */
+
+/* Css for JavaScript */
+    /* To fix main menu container */
+.fixed{                     
+    z-index: 9999;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+/* Slider */
+
+.cd-full-width h2 {
+    color: white;
+    background-color: #6E6E6E;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+.cd-full-width p {
+    color: white;
+    font-weight: bold;
+    background-color: #6E6E6E;
+    border: 1px black solid;
+    border-radius: 3px;
+
+    padding: 15px;
+}
+/* Main */
+p {
+    line-height: 150%;
+}
+
+ul {
+    line-height: 150%;
+}
+
+li {
+    line-height: 150%;
+}
+main div:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    height: 60px;
+    border-bottom: 1px black ridge;
+    
+
+
+    background-color: white;
+}
+main div:first-child a {
+    color: black;
+}
+
+.contenu {
+    height: 100%;
+    margin: 50px;
+
+    background: white;
+    box-shadow: #6E6E6E;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    font-family: courgette;
+}
+h5 {
+    font-family: 'Kristi', cursive;
+    font-size: 29px;  
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+    font-weight: bold;
+    font-family: 'Julius Sans One', sans-serif;
+
+}
+nav {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul {
+    display: flex;    
+}
+
+
+textarea {
+    height: 12em;
+    width:  25em;
+    
+    margin: 5px;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+   background-color: gainsboro;
+    border-top: 1px black ridge;
+}
+
+/* la purification s'arrete ici */
+.conteneur {
+    display: flex;
+    justify-content: center;
+    
+    background-color: white;   
+}
+
+.contenu {
+    height: 100%;
+    margin: 50px;
+
+    background: white;
+    box-shadow: #6E6E6E;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    font-family: courgette;
+}
+
+#facebook {
+    height: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+
+.liste {
+    align-self: flex-end;
+    margin: 12px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+
+
+
+
+
+
+#realformulaire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+}
+input {
+    margin: 5px;
+}
+textarea {
+    margin: 5px;
+}
+
+
+#tarif2 {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 25px;
+}
+
+#tarif2 p {
+    margin-bottom: 15px;
+}
+#tarif {
+    height: 100px;
+}
+#localisation {
+    height: 100px;
+}
+#presentation {
+    height: 100px;
+}
+.lien {
+    color: crimson;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 250px;
+    border: 1px black ridge;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: gainsboro;
+}
+
+.info p {
+    margin-top: 15px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 35px;
+    
+    
+}
+#tableau {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    justify-content: center;
+    align-items: flex-end;
+
+    margin-bottom: 55px;
+}
+
+#tableau ul {
+    padding: 25px;
+}
+#map {
+    height: 450px;
+    margin-bottom: 100px;
+}
+
+.cd-hero {
+    height: 50%;
+}
+
+.methode {
+    padding-right: 100px;
+    padding-left: 100px;
+}
+
+.methode p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.methode h3 {
+    margin-bottom: 25px;
+}
+
+.methode ul li {
+    font-weight: bold;
+    list-style: circle;
+}
+
+.parcours {
+    padding-right: 100px;
+    padding-left: 100px;
+
+}
+.parcours p {
+    margin-top: 25px;
+}
+.parcours article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parcours article p {
+    margin-right: 25px;
+}
+.parcours  a {
+    width: 50%;
+    height: 50%;
+}
+
+.pcs {
+    display: flex;
+    
+    
+}
+/* Media Querie */
+@media screen and (min-width: 50px) and (max-width: 640px) {
+    .liste {
+        font-size: 12px;   
+    }
+    #facebook {
+        height: 25px;
+        width: 25px;
+    }
+    #SkypeButton_Call_spataro.lucas_1 {
+        height: 25px;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
